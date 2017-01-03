@@ -1,0 +1,211 @@
+/* メイン */
+
+body {
+  text-align: center;
+  background-color: #ffffff;
+}
+
+#body {
+  width: 98%;
+  width: expression(document.body.clientWidth > 642? "640px" : "auto");
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Meiryo, "メイリオ", Verdana, Arial, Helvetica, "ＭＳ Ｐゴシック", sans-serif;
+}
+
+
+
+/* タイトル */
+
+h1 {
+  margin: 0px;
+  font-size: 2em;
+}
+
+h1 a {
+  color: #333333;
+}
+
+
+
+/* トップメニュー/ナビゲーション */
+
+#menu {
+  text-align: right;
+}
+
+#menu a {
+  color: #ffffff;
+  font-size: 1.2em;
+  background-color: #444444;
+  padding: 0.2em 0.4em;	
+  border: 2px outset #999999;
+  text-decoration: none;
+} 
+
+#nav {
+  text-align: center;
+  background-color: #444444;
+  color: #ffffff;
+  border-left: 0.8em solid;
+  border-right: 0.8em solid;
+  padding: 0.2em;
+}
+
+#nav a, #nav .nav {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.2em;
+}
+
+#nav #latest {
+  margin: 0em 2em;
+}
+
+#nav .nav {
+  color: #aaaaaa;
+}
+
+#nav a:hover, #menu a:hover {
+  color: #333333;
+  background-color: #cccccc;
+}
+
+#menu a:hover {
+  border: 2px inset #999999;
+}
+
+
+
+/* フォーム */
+
+#formbox {
+  margin: 1em 0px;
+}
+
+#write, #read, #config {
+  display: none;
+}
+
+form {
+  border: solid 1px #666666;
+  padding: 1em;
+}
+
+form h1 {
+  font-size: 1.2em;
+  margin-bottom: 0.8em;
+}
+
+form dt {
+  clear: left;
+  float: left;
+  width: 5.5em;
+  margin: 0 0 0.8em;
+  border-left: solid 0.5em;
+  padding-left: 0.5em;
+}
+
+form dd {
+  margin-bottom: 0.8em;
+  margin-left: 6.5em;
+}
+
+label {
+  padding-right: 0.2em;
+}
+
+input, select, textarea, legend{
+  border: solid 1px #666666;
+}
+
+textarea {
+  width: 95%;
+}
+
+input[type="text"] {
+  width: 8em;
+}
+
+input[type="password"] {
+  width: 10em;
+}
+
+
+
+/* 投稿表示部 */
+
+#contents {
+  padding: 0.5em;
+  border: solid 1px #666666;
+  margin: 1em 0px;
+}
+
+#post_count {
+  text-align: right;
+  margin: 0.5em;
+}
+
+.header {
+  display: inline;
+  margin: 0px;
+  border-bottom: 1px solid;
+  border-right: 3px solid;
+  padding: 0em 0.8em;
+}
+
+.date {
+  margin-left: 1em;
+  font-size: 0.8em;
+}
+
+.edit {
+  margin-left: 1em;
+  font-size: 0.8em;
+}
+
+.text {
+  padding: 0.5em;
+  margin: 0px;
+  border-left: 3px solid;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.attached {
+  text-align: right;
+  padding-top: 0.5em;
+  font-style: italic;
+}
+
+.attachedimg {
+  vertical-align: top;
+  border: 1px solid;
+}
+
+.footer {
+  margin-bottom: 1em;
+  padding-right: 0.5em;
+  border-top: 1px solid;
+  border-right: 3px solid;
+  text-align: right;
+}
+
+
+
+/* フッタ その他 */
+
+em {
+  font-style: normal;
+  font-weight: bold;
+}
+
+address {
+  text-align: right;
+  font-style: normal;
+}
+
+#userinfo {
+  text-align: right;
+}
